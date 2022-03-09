@@ -17,4 +17,6 @@ saveBtn.addEventListener('click', () => {
     //log out the count
     let dash = count + ' - '
     saveEl.innerHTML += ' ' + dash 
+    counter.innerHTML = 0;
+    count = 0
 })
